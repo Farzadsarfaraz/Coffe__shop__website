@@ -88,7 +88,7 @@ ul{
     align-items: center;
 }
 .aboutustext{
-    width: 550px;
+    max-width: 550px;
 }
 .aboutustext h2{
     padding: 10px;
@@ -117,7 +117,7 @@ ul{
 }
 .menu{
     text-align: center;
-    border: 2px rgb(225, 213, 213) solid;
+    border: .5px rgb(225, 213, 213) solid;
     padding: 35px;
 }
 .menu h2{
@@ -141,7 +141,7 @@ ul{
     text-align: center;
 }
 .ourprodukt{
-    border: 2px rgb(225, 213, 213) solid;
+    border: .5px rgb(225, 213, 213) solid;
     padding: 25px 0 25px 0;
 }
 .ourproduct h2{
@@ -167,4 +167,25 @@ ul{
 }
 .ourproductslist p{
     font-size: 1.5rem;
+}
+.customer__review h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 3rem;
+}
+.customer__review__content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+    margin: 10px;
+    gap: 20px;
+    text-align: center;
+}
+.Review{
+    border: white solid .5px;
+    padding: 20px 0 20px 0;
+}
+.Review .photo{
+    border-radius: 50%;
+    margin: 10px 0 10px 0;
+
 }
