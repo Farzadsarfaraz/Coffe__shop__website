@@ -238,3 +238,71 @@ form button{
     top: 30px;
     font-size: 1.5rem;
 }
+.wrapper__ourblogs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+    gap: 15px;
+    margin: 10px;
+}
+.ourblogs{
+    border: .3px solid;
+    min-height: 450px;
+}
+.ourblogs h1, h3, p{
+    padding: 10px; 
+}
+.ourblogs button{
+    padding: 8px;
+    width: 7rem;
+    margin: 10px 10px;
+    background-color: #d3ad7f;
+}
+.img__first{
+    background-image: url(blog-1.jpeg);
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img__second{
+    background-image: url(blog-2.jpeg);
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img__third{
+    background-image: url(blog-3.jpeg);
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px;
+}
+.footer__icons i{
+    font-size: 2rem;
+    border-radius: 50%;
+    border: .2px white solid;
+    padding: 10px;
+}
+.footer__nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footer__nav a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px;
+    border: .2px white solid;
+    color: white;
+}
