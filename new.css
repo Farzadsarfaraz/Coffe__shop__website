@@ -187,5 +187,54 @@ ul{
 .Review .photo{
     border-radius: 50%;
     margin: 10px 0 10px 0;
+}
+iframe{
+    height: 30vh;
+}
+form input{
+    width: 90%;
+    padding: 20px 40px;
+    background-color: var(--black);
+    color: white;
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form h1{
+    font-size: 3rem;
+    padding: 20px;
+}
 
+form button{
+    padding: 10px;
+    background-color: #d3ad7f;
+    width: 150px;
+    margin-top: 10px;
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contactUs h2{
+    padding: 20px;
+    font-size: 3rem;
+}
+.getintouch__icons{
+    position: relative;
+    padding: 10px;
+    min-width: 550px;
+}
+.getintouch__icons i{
+    position: absolute;
+    left: 50px;
+    color: #fcfcff;
+    top: 30px;
+    font-size: 1.5rem;
 }
