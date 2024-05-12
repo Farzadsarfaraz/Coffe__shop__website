@@ -1,0 +1,170 @@
+
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg);
+    color:white;
+}
+.Wrapper{
+    background-image: url(home-img.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navIcons{
+    padding: 25px;
+    margin-top: auto;
+    font-size: 1.7rem;
+}
+ul{
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    padding: 2rem;
+    transform: translatex(100%);
+}
+.bodycontent{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.bodycontent h1{
+    font-size: 3rem;
+    padding: 10px;
+}
+.bodycontent p{
+    padding: 10px;
+}
+.bodycontent button{
+    padding: 10px; 
+    background-color:#d3ad7f;
+    border: none;
+}
+.aboutusimg{
+    background-image: url(about-img.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    width: 550px;
+}
+.aboutus h1{
+    font-size: 3.5rem;
+    padding: 20px;
+    color: rgba(226, 223, 9, 0.262);
+    text-align: center;
+}
+.aboutus span{
+    color: white;
+}
+.aboutusContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutustext{
+    width: 550px;
+}
+.aboutustext h2{
+    padding: 10px;
+    font-size: 2rem;
+}
+.aboutustext p{
+    padding: 5px;
+    line-height: 30px;
+}
+.aboutustext button{
+    padding: 10px;
+    width: 9rem;
+    background-color: #d3ad7f;
+    border: none;
+}
+.menu__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+    margin: 10px;
+    gap: 20px;
+}
+.our__menu h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+}
+.menu{
+    text-align: center;
+    border: 2px rgb(225, 213, 213) solid;
+    padding: 35px;
+}
+.menu h2{
+    padding: 10px;
+}
+.menu p{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.menu button{
+    padding: 7px;
+    width: 8rem;
+    border: none;
+    background-color: #d3ad7f;
+}
+.ourproductslist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+    margin: 10px;
+    gap: 20px;
+    text-align: center;
+}
+.ourprodukt{
+    border: 2px rgb(225, 213, 213) solid;
+    padding: 25px 0 25px 0;
+}
+.ourproduct h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+#textcolor{
+    color: #d3ad7f;
+}
+.ourproductslist i{
+    font-size: 2rem;
+    margin: 4px;
+}
+.ourproductslist h1{
+    font-size: 1.7rem;
+    padding: 20px 0 15px 0;
+}
+#star{
+    font-size: 1.5rem;
+    color: #d3ad7f;
+    padding-bottom: 15px;
+}
+.ourproductslist p{
+    font-size: 1.5rem;
+}
