@@ -195,7 +195,6 @@ form{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border: red solid;
 }
 form input{
     width: 85%;
@@ -203,7 +202,6 @@ form input{
     background-color: var(--black);
     color: white;
     border: none;
-    border: red solid;
 }
 form h1{
     font-size: 3rem;
