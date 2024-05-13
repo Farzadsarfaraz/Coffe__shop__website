@@ -36,7 +36,7 @@ body{
     font-size: 1.7rem;
 }
 .ulnav{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     right: 0;
@@ -55,6 +55,7 @@ ul li{
 }
 ul a{
     text-decoration: none;
+    color: white;
 }
 ul button i{
     padding: 10px;
