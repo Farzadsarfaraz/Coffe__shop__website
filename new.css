@@ -35,7 +35,7 @@ body{
     margin-top: auto;
     font-size: 1.7rem;
 }
-ul{
+.hidden{
     background-color: aqua;
     position: fixed;
     top: 0;
@@ -54,11 +54,7 @@ ul{
     min-height: 80vh;
 }
 .bodycontent h1{
-    font-size: 3rem;
-    padding: 10px;
-}
-.bodycontent p{
-    padding: 10px;
+    font-size: 2.5rem;
 }
 .bodycontent button{
     padding: 10px; 
@@ -193,16 +189,17 @@ iframe{
 }
 form input{
     width: 90%;
-    padding: 20px 40px;
+    padding: 20px 50px;
     background-color: var(--black);
     color: white;
     border: none;
 }
 form{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 form h1{
     font-size: 3rem;
@@ -229,7 +226,7 @@ form button{
 .getintouch__icons{
     position: relative;
     padding: 10px;
-    min-width: 550px;
+    min-width: 90%;
 }
 .getintouch__icons i{
     position: absolute;
@@ -250,6 +247,12 @@ form button{
 }
 .ourblogs h1, h3, p{
     padding: 10px; 
+}
+.our___blogs h2{
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px;
+
 }
 .ourblogs button{
     padding: 8px;
@@ -305,4 +308,52 @@ form button{
     padding: 10px;
     border: .2px white solid;
     color: white;
+}
+@media(min-width: 768px){
+    .bodycontent{
+        display: flex;
+        align-items: flex-start;
+        max-width: 900px;
+        padding: 0 20px;
+    }
+    .bodycontent h1{
+        text-align: left;
+        font-size: 3rem;
+    }
+    .aboutusContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: #13131a;
+        width: 77%;
+        margin: auto;
+    }
+    .ourproductslist{
+        padding: 20px;
+    }
+    .our__menu{
+        padding: 20px;
+    }
+    .customer__review{
+        padding: 20px;
+    }
+    .map{
+        display: flex;
+        width: 90%;
+    }
+    form h1{
+        font-size: 2rem;
+    }
+    form{
+        padding: 0;
+        width: 50%;
+    }
+    iframe{
+        width: 50%;
+        height: 400px;
+    }
+    #Hamburger{
+        display: none;
+    }
 }
