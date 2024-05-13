@@ -35,7 +35,7 @@ body{
     margin-top: auto;
     font-size: 1.7rem;
 }
-.hidden{
+.ulnav{
     background-color: aqua;
     position: fixed;
     top: 0;
@@ -44,6 +44,23 @@ body{
     height: 100%;
     padding: 2rem;
     display: none;
+    transition: 1s;
+}
+.hidden{
+    display: block;
+}
+ul li{
+    padding: 10px;
+    gap: 10px;
+}
+ul a{
+    text-decoration: none;
+}
+ul button i{
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #d3ad7f;
+    border: none;
 }
 .bodycontent{
     text-align: center;
