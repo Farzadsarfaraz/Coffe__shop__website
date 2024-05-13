@@ -1,15 +1,15 @@
 const Hamburger = document.getElementById("Hamburger");
-const ulnav = document.querySelector(".hidden");
+const ulnav = document.querySelector(".ulnav");
 const closeNav = document.getElementById("closenav");
 
 
-Hamburger.addEventListener('click', myfunction);
-
-function myfunction(){
-    ulnav.classList.toggle("hidden");
-}
 closeNav.addEventListener('click', Myfunction);
 
 function Myfunction(){
-    ulnav.classList.toggle("hidden");
+    ulnav.classList.toggle('hidden');
+}
+Hamburger.addEventListener('click', myfunction);
+
+function myfunction(){
+    ulnav.classList.toggle('hidden');
 }
