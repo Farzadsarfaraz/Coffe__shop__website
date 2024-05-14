@@ -139,6 +139,13 @@ ul button i{
 .menu:hover{
     background-color: white;
     color: #010103;
+    transform: scale(1.1);
+}
+img{
+    transition: .7s;
+}
+img:hover{
+    transform: scale(1.1);
 }
 .menu h2{
     padding: 10px;
@@ -147,7 +154,7 @@ ul button i{
     padding: 10px;
     font-size: 1.5rem;
 }
-.menu button{
+button{
     padding: 7px;
     width: 8rem;
     border: none;
@@ -155,8 +162,8 @@ ul button i{
     cursor: pointer;
     transition: .5s;
 }
-.menu button:hover{
-    width: 10rem;
+button:hover{
+    width: 9rem;
 }
 .ourproductslist{
     display: grid;
@@ -180,6 +187,15 @@ ul button i{
 .ourproductslist i{
     font-size: 2rem;
     margin: 4px;
+    transition: .7s;
+}
+.ourproductslist i:hover{
+    background-color: #fcfcff;
+    color: black;
+}
+i:hover{
+    background-color: #fcfcff;
+    color: black;
 }
 .ourproductslist h1{
     font-size: 1.7rem;
