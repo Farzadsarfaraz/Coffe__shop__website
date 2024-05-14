@@ -143,6 +143,7 @@ ul button i{
 }
 img{
     transition: .7s;
+    overflow: hidden;
 }
 img:hover{
     transform: scale(1.1);
@@ -154,7 +155,7 @@ img:hover{
     padding: 10px;
     font-size: 1.5rem;
 }
-button{
+.menu button{
     padding: 7px;
     width: 8rem;
     border: none;
@@ -410,5 +411,26 @@ form button{
     }
     #Hamburger{
         display: none;
+    }
+    .ulnav{
+        display: flex;
+        background-color: transparent;
+        color: rgb(2, 2, 2);
+        position: absolute;
+        width: 70%;
+        height: 150px;
+        padding: 1.5rem;
+        transform: translateX(0%);
+        left: 100px;
+    }
+    .ulnav li{
+        padding: 20px;
+        transition: .9s;
+        font-size: 1rem;
+
+    }
+    #closenav{
+        display: none;
+        background-color: transparent;
     }
 }
