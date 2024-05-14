@@ -134,6 +134,11 @@ ul button i{
     text-align: center;
     border: .5px rgb(225, 213, 213) solid;
     padding: 35px;
+    transition: .5s;
+}
+.menu:hover{
+    background-color: white;
+    color: #010103;
 }
 .menu h2{
     padding: 10px;
@@ -147,6 +152,11 @@ ul button i{
     width: 8rem;
     border: none;
     background-color: #d3ad7f;
+    cursor: pointer;
+    transition: .5s;
+}
+.menu button:hover{
+    width: 10rem;
 }
 .ourproductslist{
     display: grid;
@@ -268,6 +278,12 @@ form button{
 .ourblogs{
     border: .3px solid;
     min-height: 450px;
+}
+.ourblogs__img{
+    transition: .5s;
+}
+.ourblogs__img:hover{
+    transform: scale(1.1);
 }
 .ourblogs h1, h3, p{
     padding: 10px; 
