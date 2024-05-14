@@ -185,18 +185,16 @@ button:hover{
 #textcolor{
     color: #d3ad7f;
 }
-.ourproductslist i{
+#ourproductsIcon{
     font-size: 2rem;
     margin: 4px;
+    background-color: var(--black);
+    padding: 10px;
     transition: .7s;
 }
-.ourproductslist i:hover{
-    background-color: #fcfcff;
-    color: black;
-}
-i:hover{
-    background-color: #fcfcff;
-    color: black;
+.ourproductslist #ourproductsIcon:hover{
+    background-color:#d3ad7f;
+    color: white;
 }
 .ourproductslist h1{
     font-size: 1.7rem;
